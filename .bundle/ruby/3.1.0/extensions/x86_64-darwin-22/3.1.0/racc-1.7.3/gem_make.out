@@ -1,0 +1,16 @@
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/ryogomacbookpro/.anyenv/envs/rbenv/versions/3.1.0/bin/ruby -I /Users/ryogomacbookpro/.anyenv/envs/rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20240109-31579-88wlab.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20240109-31579-u32qe7/racc

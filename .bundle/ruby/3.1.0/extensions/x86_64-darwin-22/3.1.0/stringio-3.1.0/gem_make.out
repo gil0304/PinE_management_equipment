@@ -1,0 +1,16 @@
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+/Users/ryogomacbookpro/.anyenv/envs/rbenv/versions/3.1.0/bin/ruby -I /Users/ryogomacbookpro/.anyenv/envs/rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20240109-31579-pp29r1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= clean
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\=
+compiling stringio.c
+linking shared-object stringio.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 stringio.bundle ./.gem.20240109-31579-3qcj3t

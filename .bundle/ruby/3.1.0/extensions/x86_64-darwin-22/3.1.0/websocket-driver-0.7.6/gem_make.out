@@ -1,0 +1,16 @@
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/Users/ryogomacbookpro/.anyenv/envs/rbenv/versions/3.1.0/bin/ruby -I /Users/ryogomacbookpro/.anyenv/envs/rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20240109-31579-54pvma.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/ryogomacbookpro/Developer/Works/PinE/management/.bundle/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20240109-31579-jgtwjg
