@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { UserType } from "../types/User";
+import { UserType } from "../../types/User";
 import User from "./User";
 import Link from "next/link";
 

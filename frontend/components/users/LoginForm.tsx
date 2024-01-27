@@ -12,12 +12,18 @@ const LoginForm = () => {
     e.preventDefault();
     try {
       // APIを呼び出して、ユーザーをログインさせる
-      const response = await axios.post("http://localhost:3000/sessions", {
-        user: {
-          employee_number: employeeNumber,
-          password,
+      const response = await axios.post(
+        "http://localhost:3000/sessions",
+        {
+          user: {
+            employee_number: employeeNumber,
+            password,
+          },
         },
-      });
+        {
+          withCredentials: true,
+        }
+      );
 
       // ログインに成功したら何かの処理をする
       // 例えば、トークンを保存したり、ユーザーダッシュボードへリダイレクトする
