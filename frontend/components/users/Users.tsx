@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { UserType } from "../../types/User";
-import User from "./User";
-import Link from "next/link";
+import { UserType } from "@/types/User";
+import User from "@/components/users/User";
 
 //User一覧を表示するコンポーネント
 const Users = () => {
@@ -11,7 +10,7 @@ const Users = () => {
 
   //User一覧を取得する関数
   const fetchUsers = async () => {
-    // APIからTodo一覧を取得する
+    // APIからUser一覧を取得する
     try {
       const res = await axios.get<UserType[]>("http://localhost:3000/users");
 

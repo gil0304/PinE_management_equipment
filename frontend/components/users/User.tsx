@@ -1,4 +1,4 @@
-import { UserType } from "../../types/User";
+import { UserType } from "@/types/User";
 
 //Userひとつを表示するコンポーネント
 const User = ({ user }: { user: UserType }) => {

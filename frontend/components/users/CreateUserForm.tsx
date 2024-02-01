@@ -6,6 +6,7 @@ const CreateUserForm = () => {
   // フォームの入力値を管理するstate
   const [name, setName] = useState("");
   const [employeeNumber, setEmployeeNumber] = useState("");
+  const [admin, setAdmin] = useState(false);
   const [password, setPassword] = useState("");
   const [passwordConfirmation, setPasswordConfirmation] = useState("");
 
@@ -18,6 +19,7 @@ const CreateUserForm = () => {
         user: {
           name,
           employee_number: employeeNumber,
+          admin,
           password,
           password_confirmation: passwordConfirmation,
         },
@@ -26,6 +28,7 @@ const CreateUserForm = () => {
       // ユーザーの登録に成功したら、フォームの入力値をリセットする
       setName("");
       setEmployeeNumber("");
+      setAdmin(false);
       setPassword("");
       setPasswordConfirmation("");
 
@@ -56,6 +59,17 @@ const CreateUserForm = () => {
           placeholder="社員番号"
           className="block w-full py-2 pl-3 pr-4 text-base border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-gray-500 focus:border-gray-500 sm:text-sm"
         />
+        <div>
+          <label className="block text-xl font-bold text-gray-700">
+            管理者:
+          </label>
+          <input
+            type="checkbox"
+            checked={admin}
+            onChange={(e) => setAdmin(e.target.checked)}
+            className="mt-2"
+          />
+        </div>
         <input
           type="password"
           value={password}

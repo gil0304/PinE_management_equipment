@@ -7,4 +7,5 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-User.create(name: 'いまとう', employee_number: '001', password: 'test')
+User.create(name: 'いまとう', employee_number: '001', admin: true, password: 'test')
+Category.create(name: 'コンバーター系', color: '#0000ff')

@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   resources :sessions
   get '/current_user', to: 'sessions#current_user'
   resources :equipments
+  resources :categories
+  resources :reservation
 end

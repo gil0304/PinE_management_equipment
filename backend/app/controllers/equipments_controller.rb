@@ -33,7 +33,7 @@ class EquipmentsController < ApplicationController
     end
 
     def equipment_params
-        params.require(:equipment).permit(:name, :description, :category, :project_name, :studio_name, :start_time, :end_time, :user_id)
+        params.require(:equipment).permit(:name, :model_number, :category_id)
     end
 
 end

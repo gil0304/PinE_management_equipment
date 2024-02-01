@@ -1,7 +1,8 @@
 import Users from "@/components/users/Users";
 import CreateUserForm from "@/components/users/CreateUserForm";
 import EquipmentList from "@/components/equipments/Equipments";
-import AddEquipmentForm from "@/components/equipments/AddEquipmentForm";
+import CreateEquipmentForm from "@/components/equipments/CreateEquipmentForm";
+import CreateCategoryForm from "@/components/categories/CreateCategoryForm";
 
 export default function Admin() {
   return (
@@ -14,7 +15,8 @@ export default function Admin() {
       <div>
         <h1>機材一覧</h1>
         <EquipmentList />
-        <AddEquipmentForm />
+        <CreateCategoryForm />
+        <CreateEquipmentForm />
       </div>
     </div>
   );
